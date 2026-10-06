@@ -1,0 +1,119 @@
+# Cute Human Colony (CE) — Andres's new playthrough, 2026-10-04.
+# Source of truth for the lab AND for the .rml (build-rml.mjs adds Clio Couch at the end for his game).
+# Doc: ..\..\rw-modlists\cute-human-ce-colony.md
+
+brrainz.harmony
+taranchuk.performanceoptimizer
+ludeon.rimworld
+ludeon.rimworld.royalty
+ludeon.rimworld.ideology
+ludeon.rimworld.biotech
+ludeon.rimworld.anomaly
+ludeon.rimworld.odyssey
+
+# frameworks
+smashphil.vehicleframework
+erdelf.humanoidalienraces
+unlimitedhugs.hugslib
+dubwise.dubsmintmenus
+adaptive.storage.framework
+oskarpotocki.vanillafactionsexpanded.core
+
+# body: Hooman cute only draws Female/Male — S16 keeps thin/fat/hulk from spawning
+# (lab 10/4 without it: 3 of 8 "Female" spawns rolled Thin/Fat; a Fat one rendered as a naked blob)
+barbariank.hoomancute
+s16.sbto
+
+# Combat Extended
+ceteam.combatextended
+ceteam.combatextendedguns
+ceteam.combatextendedarmors
+ceteam.combatextendedarmory
+ceteam.combatextendedmelee
+ceteam.combatextendedattachments
+
+# QoL
+mehni.pickupandhaul
+unlimitedhugs.allowtool
+peppsen.pmusic
+brrainz.cameraplus
+void.charactereditor
+dubwise.dubsbadhygiene
+dubwise.dubsskylights
+avilmask.commonsense
+memegoddess.replacestuff
+andromeda.nicebilltab
+mlie.tabsorting
+jaxe.rimhud
+m00nl1ght.mappreview
+jaxe.bubbles
+
+# Vanilla Expanded + bases
+vanillaexpanded.vbookse
+vanillaexpanded.vanillaanimalsexpanded
+vanillaexpanded.vfecore
+vanillaexpanded.vfearchitect
+vanillaexpanded.vplantse
+vanillaexpanded.vplantsemore
+oskarpotocki.vanillavehiclesexpanded
+# vanillaexpanded.vappe  # OFF 10/4 (Andres): drawn for the vanilla body, misfits on Hooman cute (no Hooman compat folder)
+vanillaexpanded.recycling
+
+# storage + furniture
+sbz.neatstoragefridge
+sbz.neatstorage
+vin.warehouse.storage
+ponpeco.pfkidsroom
+ponpeco.pfkschooldesk
+erin.cottagecollection
+erin.japanesefurniture
+mingtuwuxiang.spacebasedecorative
+ponpeco.pfsf
+sbz.endlessrecreation
+mlmlmlm.bluearchivefurniture
+mlmlmlm.bluearchivefurniture2
+mlmlmlm.bluearchivefurniture4
+mlmlmlm.bluearchivefurniture5
+mlmlmlm.bluearchivejoybojects
+
+# faces + hair
+nals.facialanimation
+nals.facialanimationexperimentals
+unagi.facialanimation
+cat2002.showhair
+ponpeco.pphair
+erin.hairredux
+hair.kawaii
+jintuzilamian.hairstyle.afuwomenshairstyles
+automatic.gradienthair
+sinner.softerhaircolors
+co.uk.epicguru.meleeanimation
+
+# cute gear
+bbis.maidproject
+unagi.battle.coat
+misstall.nisstallsoutfitszzz
+unagi.ap.dress
+vibius.unagiroyaltyapparelce
+hartarok.dresses
+samael.ditrcp
+anthitei.athsstylefemaledresses.style
+mlmlmlm.cosplayequipmentbluearchive
+
+# gacha corner
+kuro.wutheringwaves.characterstyles
+mihoyo.zenlesszonezero.characterstyles
+tolgrim.rimzonezero.ellenjoe
+
+# RimTalk stack (his order)
+cj.rimtalk
+ruaji.rimtalkpromptenhance
+cj.rimtalk.expandmemory
+saltgin.rimtalkeventmemory
+rp.rimtalk.personadirector
+
+fuu.bloodanimations
+ih.clean.textures
+
+# CE auto-patcher last: it patches whatever loaded above it
+nuff.ceautopatcher

@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <LangVersion>12</LangVersion>
+    <Nullable>disable</Nullable>
+    <AssemblyName>ClioLabRW</AssemblyName>
+    <RootNamespace>ClioLabRW</RootNamespace>
+    <Version>0.1.0</Version>
+    <OutputPath>..\..\Assemblies\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <GenerateDependencyFile>false</GenerateDependencyFile>
+    <ProduceReferenceAssembly>false</ProduceReferenceAssembly>
+    <DebugType>portable</DebugType>
+    <!-- Keep the build machine's paths out of the shipped dll's debug directory. -->
+    <PathMap>$(MSBuildProjectDirectory)=/_/</PathMap>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Compile-time game references only; nothing here ships in Assemblies. No Harmony: the lab
+         drives the game from a MonoBehaviour and patches nothing. -->
+    <PackageReference Include="Krafs.Rimworld.Ref" Version="1.6.*" ExcludeAssets="runtime" />
+  </ItemGroup>
+
+</Project>

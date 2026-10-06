@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<packageId>lumenastrum.cliolabrw</packageId>
+	<name>Clio Lab (RimWorld)</name>
+	<author>lumenastrum</author>
+	<modVersion>0.1.0</modVersion>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<description>Clio's private test bench. Reads JSON commands from an inbox folder (spawn, dress, render, screenshot, ability, log) and writes results next to it, under ClioLab in the RimWorld save-data folder. Meant for an isolated lab instance launched with -savedatafolder, never a real colony. Adds nothing to saves.</description>
+</ModMetaData>

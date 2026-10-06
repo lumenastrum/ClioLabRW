@@ -1,0 +1,11 @@
+# Clio plays a colony — Andres, 10/4: "Cassandra on Community Builder. DLC off to start with.
+# Rimtalk for sure so you can read your pawns talk."
+# Core only + RimTalk (his DeepSeek settings copied in via @config) + Clio Couch, whose feed
+# (RWLab\ClioCouchRW\feed.ndjson) carries the RimTalk lines, hourly snapshots, letters and battles.
+
+brrainz.harmony
+ludeon.rimworld
+cj.rimtalk
+lumenastrum.cliocouchrw
+
+@config cj.rimtalk
